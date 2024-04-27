@@ -1,0 +1,62 @@
+.FeaturedCont {
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+}
+
+.FeaturedCont main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FeaturedCont header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transictions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.topCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.bottum {
+  display: flex;
+  gap: 10px;
+}
+
+.bottum .revenue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.FeaturedProgress {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 57.3em) {
+    .bottum {
+       flex-wrap: wrap;
+      }
+}
+
+@media (max-width: 30em) {
+    .FeaturedCont {
+        width: 90%;
+    }
+}
