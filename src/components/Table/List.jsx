@@ -80,7 +80,17 @@ const List = () => {
               <TableCell className="tableCell">{row.id}</TableCell>
               <TableCell className="tableCell">
                 <div className="cellWrapper">
-                  <img src={row.img} alt="" className="image" />
+                  <img
+                    src={row.img}
+                    alt="product image"
+                    style={{
+                      width: "32px",
+                      height: "32px",
+                      borderRadius: "50%",
+                      marginRight: "10px",
+                      objectFit: "cover",
+                    }}
+                  />
                   {row.product}
                 </div>
               </TableCell>
